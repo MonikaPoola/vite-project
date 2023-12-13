@@ -1,0 +1,27 @@
+{
+  "name": "vite-project",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup --config",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "lit": "^2.7.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0"
+  },
+  "main": "my-element.ts",
+  "module": "my-element.ts",
+  "dependencies": {
+    "@siemens/ix-brand-theme": "^2.0.0",
+    "tslib": "^2.6.2"
+  }
+}
